@@ -1,0 +1,45 @@
+spring:
+  config:
+    activate:
+      on-profile: qa
+#  datasource:
+#    url:
+#      jdbc:
+#        mysql://localhost:3306/profile?createDatabaseIfNotExist=true
+#    username:
+#      root
+#    password:
+#      root
+#  jpa:
+#    hibernate:
+#      ddl-auto:
+#        update
+#    show-sql:
+#      true
+#    properties:
+#      hibernate:
+#        format:
+#          sql:
+#            true
+#        dialect:
+#          org.hibernate.dialect.MySQLDialect
+#    driver-class-name:
+#      com.mysql.cj.jdbc.Driver
+      
+      
+build:
+  version: 1.2v
+
+accounts:
+  manager: Nitishraj R
+  contactdetails:
+    manager:
+      Nitishraj R
+    phone:
+      9876543210
+    email:
+      nitishraj@gmail.com
+    branch:
+      - Srivilliputhur
+      - Chennai
+  

@@ -1,0 +1,19 @@
+spring:
+#  config:
+#    import:
+#    - configserver:http://localhost:8080/
+  cloud:
+    config:
+      enabled:
+        false
+
+
+my:
+  department:
+    PHP Developer
+    
+interns:
+  id: 112
+  name: Julie
+  college: Rambo College of Engineering
+  

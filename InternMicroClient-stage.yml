@@ -1,0 +1,19 @@
+spring:
+#  config:
+#    import:
+#    - configserver:http://localhost:8080/
+  cloud:
+    config:
+      enabled:
+        false
+
+
+my:
+  department:
+    Testing Engineer
+    
+interns:
+  id: 113
+  name: Stella
+  college: MMM College of Engineering
+  

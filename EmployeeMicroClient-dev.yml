@@ -1,0 +1,11 @@
+spring:
+  cloud:
+    config:
+      enabled: false
+      
+server:
+  port: 8080
+  
+employee:
+  address:
+    93/c, mno street, chennai
